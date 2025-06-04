@@ -12,4 +12,17 @@
 	<startup-notify/>
 	<directories/>
 </action>
+<action>
+	<icon>neovim</icon>
+	<name>Sudo Edit</name>
+	<submenu></submenu>
+	<unique-id>1748564618708959-1</unique-id>
+	<command>pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY dbus-launch neovide %f</command>
+	<description>Edit file with sudo</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<other-files/>
+	<text-files/>
+</action>
 </actions>

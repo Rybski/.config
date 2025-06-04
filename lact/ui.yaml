@@ -1,0 +1,10 @@
+selected_gpu: 1002:15E7-17AA:50D5-0000:04:00.0
+plots_time_period: 60
+plots_per_row: 2
+plots:
+- - !Temperature edge
+- - GpuClock
+  - GpuTargetClock
+  - VramClock
+- - FanPwm
+- - PowerCurrent
