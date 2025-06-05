@@ -39,6 +39,6 @@ capabilities.textDocument.completion.completionItem = {
 }
 
 vim.lsp.config("*", { capabilities = capabilities })
-local servers = { "html", "cssls" , 'lua_ls' }
+local servers = { "clangd", "rust-analizer" , 'lua_ls' , 'taplo', 'css', 'html'}
 
 vim.lsp.enable(servers)

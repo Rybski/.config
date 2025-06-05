@@ -6,6 +6,16 @@ return {
   { "echasnovski/mini.icons", opts = {} },
   { "echasnovski/mini.statusline", opts = {} },
   { "lewis6991/gitsigns.nvim", opts = {} },
+  { "folke/todo-comments.nvim" },
+
+
+  {
+    "numToStr/Comment.nvim",
+    opts = {
+        -- add any options here
+    },
+    lazy = false,
+  },
 
   -- "EdenEast/nightfox.nvim", default colorscheme
   "olimorris/onedarkpro.nvim",
@@ -68,6 +78,14 @@ return {
       require "plugins.configs.lspconfig"
     end,
   },
+
+  {
+    "mrcjkb/rustaceanvim",
+    build = "rustup component add rust-analizer",
+    ft = { "rust" },
+  },
+
+  { "mfussenegger/nvim-dap" },
 
   {
     "stevearc/conform.nvim",
