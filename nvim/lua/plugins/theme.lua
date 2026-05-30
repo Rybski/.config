@@ -1,0 +1,1 @@
+/home/witan/.config/omarchy/current/theme/neovim.lua
